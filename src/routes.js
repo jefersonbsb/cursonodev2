@@ -9,6 +9,10 @@ routes.get("/perguntar", (req,res)=>{
     res.render('perguntar')
 });
 
+routes.get("/login", (req,res)=>{
+    res.render('login')
+});
+
 routes.get("/facebook", (req,res)=>{
     res.redirect('https://www.facebook.com/jeferson.barbosa.161214');
 });

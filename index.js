@@ -2,6 +2,8 @@ const express = require("express");
 const routes = require("./src/routes");
 const app = express();
 const connection = require("./src/database");
+const perguntaModel = require("./model/Pergunta");
+
 
 /* Teste de conexão com o Banco de Dados
 connection.authenticate().then(()=>{

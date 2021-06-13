@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+body, html{
+    height: 100%;
+    background-image: url("/img/gradient.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.card{
+    background-color: transparent;
+}
+
+#login-form{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}

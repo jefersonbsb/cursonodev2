@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
   //Change collor On Sclrolled Navbar
 
   $(window).scroll(()=> {
-    $('nav').toggleClass('scrolled', $(this).scrollTop() > 590);
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 540);
   });
 
 
