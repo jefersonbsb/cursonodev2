@@ -1,0 +1,39 @@
+<%- include('partials/header'); %>
+
+<%- include('partials/navbar'); %>
+
+    <section class="hero is-link is-fullheight-with-navbar">
+        <div class="hero-body">
+
+            <div class="container">
+                <div class="card pt-4 pb-4" id="mycard">
+
+                    <div class="card-header is-size-4 is-justify-content-center pb-4">
+                        Formulário de Perguntas
+                    </div>
+
+                    <div class="card-content">
+                        <div class="field">
+                            <label class="label">Título</label>
+                              <form action="/salvarPergunta" method="post">
+                                <div class="control">
+                                  <input class="input" name="titulo" type="text" placeholder="Digite o título da pergunta">
+                                </div>
+                                <label class="label">Descrição</label>
+                                <div class="control">
+                                  <input class="textarea" name="descricao" type="text" placeholder="digite a descrição da pergunta">
+                                </div>
+                                <br>
+                                <div class="column is-one-fifth">
+                                  <button class="button is-medium is-primary is-fullwidth" type="submit">Enviar</button>
+                                </div>
+                                
+                              </form>
+                          </div>
+                    </div>
+                      
+                  </div>
+            </div>
+   </div>
+      </section>
+

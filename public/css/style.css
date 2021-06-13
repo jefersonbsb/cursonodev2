@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+.josefin{
+    font-family: 'Josefin Sans', sans-serif;
+}
+#mycard{
+    background-color: #eceff1;
+}
+
+.animated-h1, .animated-h2, .writer{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+.card .card-content .field .control .input{
+    background-color: white;
+}
+
+.card .card-content .field .control .textarea{
+    background-color: white;
+}
+
+#parallax {
+    background: url(../img/cup.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .navbar-item:hover{
+      background: transparent !important;
+  }
+
+  
+
+.is-black {
+    transition: 800ms ease;
+    background: transparent !important;
+    color: #fff;
+}
+
+.is-black.scrolled{
+    background-color: #351450 !important;
+    color: #fff;
+}

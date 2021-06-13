@@ -1,0 +1,17 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Francisco Jeferson",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "scroll-js": "^3.4.1",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}
